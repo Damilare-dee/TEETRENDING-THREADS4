@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Barlow Condensed', 'Barlow', sans-serif;
+    --font-sans: 'Barlow', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #ffffff;
+    color: #0f172a;
+  }
+
+  h1, h2, h3, .font-serif-title, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom Blue Color Utility Tokens */
+.bg-zeenia-blue-deep {
+  background-color: #1e3a8a;
+}
+
+.bg-zeenia-blue-royal {
+  background-color: #2563eb;
+}
+
+.bg-zeenia-blue-soft {
+  background-color: #eff6ff;
+}
+
+.text-zeenia-blue-dark {
+  color: #1e3a8a;
+}
+
+.text-zeenia-blue {
+  color: #2563eb;
+}
+
+.border-zeenia-blue {
+  border-color: #2563eb;
+}
+
+.border-zeenia-blue-light {
+  border-color: #bfdbfe;
+}
+
+/* Custom subtle scrollbar in Blue & White */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+::-webkit-scrollbar-thumb {
+  background: #2563eb;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1d4ed8;
+}
+
+

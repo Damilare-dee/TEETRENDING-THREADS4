@@ -1,0 +1,6 @@
+{
+  "name": "TEE TRENDING THREADS",
+  "description": "Tailored luxury couture and custom fashion for children, bridal, flower girls, and reception outfits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
